@@ -12,4 +12,24 @@ public class ProductService implements IProductService {
     public List<Product> search(String query) {
         return null;
     }
+
+    @Override
+    public void addProductToCart(String productId) {
+        // логика метода
+    }
+
+    @Override
+    public void removeProductFromCart(String productId) {
+        // логика метода
+    }
+
+    @Override
+    public void checkout() {
+        // логика метода
+    }
+
+    @Override
+    public void applyDiscountCode(String code) {
+        // логика метода
+    }
 }

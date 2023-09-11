@@ -14,5 +14,10 @@ public class ClientApplication implements IClientApplication {
             this.updateServer.applyUpdate();
         }
     }
+
+    @Override
+    public void rollbackUpdate() {
+        // логика метода
+    }
 }
 
